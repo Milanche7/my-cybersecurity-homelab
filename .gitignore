@@ -1,0 +1,27 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*
+*secrets*
+
+# VPN configurations
+*.ovpn
+*.confidential
+
+# Backups and virtual machines
+*.vma
+*.vma.zst
+*.qcow2
+*.vmdk
+*.vdi
+*.iso
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
