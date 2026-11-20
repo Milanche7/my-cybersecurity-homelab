@@ -60,14 +60,6 @@ This was a **simulated training feed**, not a live reputation check. The IP addr
 
 Supporting terminal screenshots are stored in the [`screenshots/`](screenshots/) folder. They show the commands used and the corresponding output.
 
-Suggested filenames:
-
-- `01_initial-triage.png` — file identification and email SHA-256
-- `02_email-headers.png` — sender details and authentication results
-- `03_url-analysis.png` — displayed URL compared with the actual hyperlink target
-- `04_attachment-analysis.png` — extracted HTML content and attachment SHA-256
-- `05_threat-intelligence.png` — results from the simulated feed
-
 ## Conclusion
 
 The investigation identified multiple indicators of a credential-phishing attempt, especially the sender impersonation and the mismatch between the displayed URL and its actual destination. The attachment supported the same pretext by presenting a mailbox verification form. The user reported no interaction, so no compromise was confirmed from the available evidence.
